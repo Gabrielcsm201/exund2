@@ -1,5 +1,5 @@
 {
-  "name": "projetoNode",
+  "name": "projetonode",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.0.1"
-  }
+    "express": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabrielcsm201/exund2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gabrielcsm201/exund2/issues"
+  },
+  "homepage": "https://github.com/Gabrielcsm201/exund2#readme"
 }
