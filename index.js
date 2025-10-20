@@ -4,12 +4,12 @@ const PORT = process.env.PORT || 8080;
 
 //criando a rota inicial
 app.get("/", function(req,res){
-    res.send("<h1>Bem vindo ao meu site!</h1>");
+    res.send("<h1>Trabalho!</h1>");
 })
 
 //rota do cadastro de produtos
-app.get("/produtos", function(req,res){
-    res.send("<h1>Lista de Produtos!</h1>");
+app.get("/janela2", function(req,res){
+    res.send("<h1>outra janela</h1>");
 })
 
 //rota com parametro 
@@ -46,6 +46,7 @@ console.log ("PORT env: ", process.env.port);
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
+
 
 
 
